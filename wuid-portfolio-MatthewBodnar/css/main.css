@@ -1,0 +1,108 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  font-family: 'DM Serif Display', serif;
+}
+
+h3 {
+  font-family: 'DM Serif Display', serif;
+}
+
+/* HEADER */
+.header {
+  background-color: wheat;
+  padding: top 32px; bottom: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  color: blue;
+}
+
+/* MAIN*/
+
+em {
+  font-family: 'DM Serif Display', serif;
+  font-style: italic;
+}
+
+.title-subtitle {
+  font-family: 'DM Serif Display', serif;
+
+}
+
+.matebodnar-img {
+  width: 30%;
+}
+
+.monogram-img{
+  width: 80px;
+}
+
+.under-image-name {
+  font-size: 24px;
+  color: maroon;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 3rem;
+  border-top: 1px solid black;
+  text-align: center;
+}
+
+
+
+
+
+/* The contact form's base was inspired and made by code found on this site: https://www.w3schools.com/howto/howto_css_contact_form.asp */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 18px;
+  resize: vertical
+}
+
+button {
+  background-color: #4F6F52;
+  border-radius: 6px;
+  border: 0px;
+  color: aliceblue;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  align-items: center;}
+
+  button:hover{
+    background-color: #739072;
+    cursor:pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.container {
+  border-radius: 5px;
+  background-color: #ECE3CE;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+}
