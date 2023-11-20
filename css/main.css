@@ -32,8 +32,16 @@ body {
   display: block;
   margin: 0 auto;
   cursor: pointer;
+  animation: pulseAndRotate 4s infinite;
 }
 
+@keyframes pulseAndRotate {
+  0% { transform: scale(1) rotate(0deg);}
+  25% { transform: scale(1.1) rotate(-45deg);}
+  50% { transform: scale(1) rotate(0deg);}
+  75% { transform: scale(1.1) rotate(45deg);}
+  100% { transform: scale(1) rotate(0deg);}
+}
 
 .monogram-link {
   position: absolute;
